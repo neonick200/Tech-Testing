@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC8E8E4F2312A87500BB1ABC /* DiaryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E472312A87500BB1ABC /* DiaryStore.swift */; };
+		EC8E8E502312A87500BB1ABC /* DiaryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E482312A87500BB1ABC /* DiaryPresenter.swift */; };
+		EC8E8E512312A87500BB1ABC /* DiaryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E492312A87500BB1ABC /* DiaryWorker.swift */; };
+		EC8E8E522312A87500BB1ABC /* DiaryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E4A2312A87500BB1ABC /* DiaryRouter.swift */; };
+		EC8E8E532312A87500BB1ABC /* DiaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E4B2312A87500BB1ABC /* DiaryModels.swift */; };
+		EC8E8E542312A87500BB1ABC /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E4C2312A87500BB1ABC /* DiaryViewController.swift */; };
+		EC8E8E552312A87500BB1ABC /* DiaryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E4D2312A87500BB1ABC /* DiaryInteractor.swift */; };
+		EC8E8E562312A87500BB1ABC /* DiaryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E4E2312A87500BB1ABC /* DiaryEntity.swift */; };
 		ECEC9C69230FDF9000182BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC9C68230FDF9000182BD9 /* AppDelegate.swift */; };
 		ECEC9C6B230FDF9000182BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC9C6A230FDF9000182BD9 /* ViewController.swift */; };
 		ECEC9C6E230FDF9000182BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9C6C230FDF9000182BD9 /* Main.storyboard */; };
@@ -15,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC8E8E472312A87500BB1ABC /* DiaryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryStore.swift; sourceTree = "<group>"; };
+		EC8E8E482312A87500BB1ABC /* DiaryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryPresenter.swift; sourceTree = "<group>"; };
+		EC8E8E492312A87500BB1ABC /* DiaryWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryWorker.swift; sourceTree = "<group>"; };
+		EC8E8E4A2312A87500BB1ABC /* DiaryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryRouter.swift; sourceTree = "<group>"; };
+		EC8E8E4B2312A87500BB1ABC /* DiaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryModels.swift; sourceTree = "<group>"; };
+		EC8E8E4C2312A87500BB1ABC /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		EC8E8E4D2312A87500BB1ABC /* DiaryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryInteractor.swift; sourceTree = "<group>"; };
+		EC8E8E4E2312A87500BB1ABC /* DiaryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntity.swift; sourceTree = "<group>"; };
 		ECEC9C65230FDF9000182BD9 /* GitPlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEC9C68230FDF9000182BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECEC9C6A230FDF9000182BD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +51,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC8E8E462312A82E00BB1ABC /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E8E472312A87500BB1ABC /* DiaryStore.swift */,
+				EC8E8E482312A87500BB1ABC /* DiaryPresenter.swift */,
+				EC8E8E492312A87500BB1ABC /* DiaryWorker.swift */,
+				EC8E8E4A2312A87500BB1ABC /* DiaryRouter.swift */,
+				EC8E8E4B2312A87500BB1ABC /* DiaryModels.swift */,
+				EC8E8E4C2312A87500BB1ABC /* DiaryViewController.swift */,
+				EC8E8E4D2312A87500BB1ABC /* DiaryInteractor.swift */,
+				EC8E8E4E2312A87500BB1ABC /* DiaryEntity.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		ECEC9C5C230FDF9000182BD9 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +85,7 @@
 		ECEC9C67230FDF9000182BD9 /* GitPlayGround */ = {
 			isa = PBXGroup;
 			children = (
+				EC8E8E462312A82E00BB1ABC /* Scene */,
 				ECEC9C68230FDF9000182BD9 /* AppDelegate.swift */,
 				ECEC9C6A230FDF9000182BD9 /* ViewController.swift */,
 				ECEC9C6C230FDF9000182BD9 /* Main.storyboard */,
@@ -135,8 +167,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8E8E532312A87500BB1ABC /* DiaryModels.swift in Sources */,
+				EC8E8E502312A87500BB1ABC /* DiaryPresenter.swift in Sources */,
 				ECEC9C6B230FDF9000182BD9 /* ViewController.swift in Sources */,
 				ECEC9C69230FDF9000182BD9 /* AppDelegate.swift in Sources */,
+				EC8E8E562312A87500BB1ABC /* DiaryEntity.swift in Sources */,
+				EC8E8E542312A87500BB1ABC /* DiaryViewController.swift in Sources */,
+				EC8E8E512312A87500BB1ABC /* DiaryWorker.swift in Sources */,
+				EC8E8E522312A87500BB1ABC /* DiaryRouter.swift in Sources */,
+				EC8E8E4F2312A87500BB1ABC /* DiaryStore.swift in Sources */,
+				EC8E8E552312A87500BB1ABC /* DiaryInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
