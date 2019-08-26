@@ -24,6 +24,7 @@
 		EC8E8E672313838300BB1ABC /* ProfilesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E5F2313838300BB1ABC /* ProfilesInteractor.swift */; };
 		EC8E8E682313838300BB1ABC /* ProfilesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E602313838300BB1ABC /* ProfilesEntity.swift */; };
 		EC8E8E6A2313F35500BB1ABC /* A.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E692313F35500BB1ABC /* A.swift */; };
+		EC8E8E6C2313F3A300BB1ABC /* B.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E6B2313F3A300BB1ABC /* B.swift */; };
 		ECEC9C69230FDF9000182BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC9C68230FDF9000182BD9 /* AppDelegate.swift */; };
 		ECEC9C6B230FDF9000182BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC9C6A230FDF9000182BD9 /* ViewController.swift */; };
 		ECEC9C6E230FDF9000182BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9C6C230FDF9000182BD9 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		EC8E8E5F2313838300BB1ABC /* ProfilesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesInteractor.swift; sourceTree = "<group>"; };
 		EC8E8E602313838300BB1ABC /* ProfilesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesEntity.swift; sourceTree = "<group>"; };
 		EC8E8E692313F35500BB1ABC /* A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A.swift; sourceTree = "<group>"; };
+		EC8E8E6B2313F3A300BB1ABC /* B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B.swift; sourceTree = "<group>"; };
 		ECEC9C65230FDF9000182BD9 /* GitPlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEC9C68230FDF9000182BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECEC9C6A230FDF9000182BD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 				EC8E8E562312A87500BB1ABC /* DiaryEntity.swift in Sources */,
 				EC8E8E672313838300BB1ABC /* ProfilesInteractor.swift in Sources */,
 				EC8E8E622313838300BB1ABC /* ProfilesPresenter.swift in Sources */,
+				EC8E8E6C2313F3A300BB1ABC /* B.swift in Sources */,
 				EC8E8E682313838300BB1ABC /* ProfilesEntity.swift in Sources */,
 				EC8E8E542312A87500BB1ABC /* DiaryViewController.swift in Sources */,
 				EC8E8E662313838300BB1ABC /* ProfilesViewController.swift in Sources */,
