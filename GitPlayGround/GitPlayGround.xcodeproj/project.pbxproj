@@ -15,6 +15,14 @@
 		EC8E8E542312A87500BB1ABC /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E4C2312A87500BB1ABC /* DiaryViewController.swift */; };
 		EC8E8E552312A87500BB1ABC /* DiaryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E4D2312A87500BB1ABC /* DiaryInteractor.swift */; };
 		EC8E8E562312A87500BB1ABC /* DiaryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E4E2312A87500BB1ABC /* DiaryEntity.swift */; };
+		EC8E8E612313838300BB1ABC /* ProfilesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E592313838300BB1ABC /* ProfilesStore.swift */; };
+		EC8E8E622313838300BB1ABC /* ProfilesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E5A2313838300BB1ABC /* ProfilesPresenter.swift */; };
+		EC8E8E632313838300BB1ABC /* ProfilesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E5B2313838300BB1ABC /* ProfilesWorker.swift */; };
+		EC8E8E642313838300BB1ABC /* ProfilesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E5C2313838300BB1ABC /* ProfilesRouter.swift */; };
+		EC8E8E652313838300BB1ABC /* ProfilesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E5D2313838300BB1ABC /* ProfilesModels.swift */; };
+		EC8E8E662313838300BB1ABC /* ProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E5E2313838300BB1ABC /* ProfilesViewController.swift */; };
+		EC8E8E672313838300BB1ABC /* ProfilesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E5F2313838300BB1ABC /* ProfilesInteractor.swift */; };
+		EC8E8E682313838300BB1ABC /* ProfilesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E8E602313838300BB1ABC /* ProfilesEntity.swift */; };
 		ECEC9C69230FDF9000182BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC9C68230FDF9000182BD9 /* AppDelegate.swift */; };
 		ECEC9C6B230FDF9000182BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEC9C6A230FDF9000182BD9 /* ViewController.swift */; };
 		ECEC9C6E230FDF9000182BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9C6C230FDF9000182BD9 /* Main.storyboard */; };
@@ -31,6 +39,14 @@
 		EC8E8E4C2312A87500BB1ABC /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		EC8E8E4D2312A87500BB1ABC /* DiaryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryInteractor.swift; sourceTree = "<group>"; };
 		EC8E8E4E2312A87500BB1ABC /* DiaryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntity.swift; sourceTree = "<group>"; };
+		EC8E8E592313838300BB1ABC /* ProfilesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesStore.swift; sourceTree = "<group>"; };
+		EC8E8E5A2313838300BB1ABC /* ProfilesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesPresenter.swift; sourceTree = "<group>"; };
+		EC8E8E5B2313838300BB1ABC /* ProfilesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesWorker.swift; sourceTree = "<group>"; };
+		EC8E8E5C2313838300BB1ABC /* ProfilesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesRouter.swift; sourceTree = "<group>"; };
+		EC8E8E5D2313838300BB1ABC /* ProfilesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesModels.swift; sourceTree = "<group>"; };
+		EC8E8E5E2313838300BB1ABC /* ProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesViewController.swift; sourceTree = "<group>"; };
+		EC8E8E5F2313838300BB1ABC /* ProfilesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesInteractor.swift; sourceTree = "<group>"; };
+		EC8E8E602313838300BB1ABC /* ProfilesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesEntity.swift; sourceTree = "<group>"; };
 		ECEC9C65230FDF9000182BD9 /* GitPlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECEC9C68230FDF9000182BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECEC9C6A230FDF9000182BD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +70,15 @@
 		EC8E8E462312A82E00BB1ABC /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				EC8E8E582313836600BB1ABC /* Profiles */,
+				EC8E8E572313834700BB1ABC /* Diary */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		EC8E8E572313834700BB1ABC /* Diary */ = {
+			isa = PBXGroup;
+			children = (
 				EC8E8E472312A87500BB1ABC /* DiaryStore.swift */,
 				EC8E8E482312A87500BB1ABC /* DiaryPresenter.swift */,
 				EC8E8E492312A87500BB1ABC /* DiaryWorker.swift */,
@@ -63,7 +88,22 @@
 				EC8E8E4D2312A87500BB1ABC /* DiaryInteractor.swift */,
 				EC8E8E4E2312A87500BB1ABC /* DiaryEntity.swift */,
 			);
-			path = Scene;
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		EC8E8E582313836600BB1ABC /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E8E592313838300BB1ABC /* ProfilesStore.swift */,
+				EC8E8E5A2313838300BB1ABC /* ProfilesPresenter.swift */,
+				EC8E8E5B2313838300BB1ABC /* ProfilesWorker.swift */,
+				EC8E8E5C2313838300BB1ABC /* ProfilesRouter.swift */,
+				EC8E8E5D2313838300BB1ABC /* ProfilesModels.swift */,
+				EC8E8E5E2313838300BB1ABC /* ProfilesViewController.swift */,
+				EC8E8E5F2313838300BB1ABC /* ProfilesInteractor.swift */,
+				EC8E8E602313838300BB1ABC /* ProfilesEntity.swift */,
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 		ECEC9C5C230FDF9000182BD9 = {
@@ -167,15 +207,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8E8E652313838300BB1ABC /* ProfilesModels.swift in Sources */,
 				EC8E8E532312A87500BB1ABC /* DiaryModels.swift in Sources */,
 				EC8E8E502312A87500BB1ABC /* DiaryPresenter.swift in Sources */,
 				ECEC9C6B230FDF9000182BD9 /* ViewController.swift in Sources */,
 				ECEC9C69230FDF9000182BD9 /* AppDelegate.swift in Sources */,
+				EC8E8E632313838300BB1ABC /* ProfilesWorker.swift in Sources */,
+				EC8E8E612313838300BB1ABC /* ProfilesStore.swift in Sources */,
 				EC8E8E562312A87500BB1ABC /* DiaryEntity.swift in Sources */,
+				EC8E8E672313838300BB1ABC /* ProfilesInteractor.swift in Sources */,
+				EC8E8E622313838300BB1ABC /* ProfilesPresenter.swift in Sources */,
+				EC8E8E682313838300BB1ABC /* ProfilesEntity.swift in Sources */,
 				EC8E8E542312A87500BB1ABC /* DiaryViewController.swift in Sources */,
+				EC8E8E662313838300BB1ABC /* ProfilesViewController.swift in Sources */,
 				EC8E8E512312A87500BB1ABC /* DiaryWorker.swift in Sources */,
 				EC8E8E522312A87500BB1ABC /* DiaryRouter.swift in Sources */,
 				EC8E8E4F2312A87500BB1ABC /* DiaryStore.swift in Sources */,
+				EC8E8E642313838300BB1ABC /* ProfilesRouter.swift in Sources */,
 				EC8E8E552312A87500BB1ABC /* DiaryInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
