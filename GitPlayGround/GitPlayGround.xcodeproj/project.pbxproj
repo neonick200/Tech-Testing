@@ -28,6 +28,7 @@
 		ECEC9C6E230FDF9000182BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9C6C230FDF9000182BD9 /* Main.storyboard */; };
 		ECEC9C70230FDF9100182BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9C6F230FDF9100182BD9 /* Assets.xcassets */; };
 		ECEC9C73230FDF9100182BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9C71230FDF9100182BD9 /* LaunchScreen.storyboard */; };
+		ECF7FE7F232F4E19005C219A /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF7FE7E232F4E19005C219A /* HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		ECEC9C6F230FDF9100182BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECEC9C72230FDF9100182BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECEC9C74230FDF9100182BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF7FE7E232F4E19005C219A /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				EC8E8E5D2313838300BB1ABC /* ProfilesModels.swift */,
 				EC8E8E5E2313838300BB1ABC /* ProfilesViewController.swift */,
 				EC8E8E5F2313838300BB1ABC /* ProfilesInteractor.swift */,
+				ECF7FE7E232F4E19005C219A /* HelloWorld.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				EC8E8E512312A87500BB1ABC /* DiaryWorker.swift in Sources */,
 				EC8E8E522312A87500BB1ABC /* DiaryRouter.swift in Sources */,
 				EC8E8E4F2312A87500BB1ABC /* DiaryStore.swift in Sources */,
+				ECF7FE7F232F4E19005C219A /* HelloWorld.swift in Sources */,
 				EC8E8E642313838300BB1ABC /* ProfilesRouter.swift in Sources */,
 				EC8E8E552312A87500BB1ABC /* DiaryInteractor.swift in Sources */,
 			);
